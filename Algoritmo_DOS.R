@@ -12,7 +12,7 @@ library(sf)
 
 
 ################Procesamiento de los datos del archivo metadata necesario para el algoritmo DOS(Estos valores son independientes de las bandas espectrales 
-por lo que son constantes para la imagen satelital) 
+################por lo que son constantes para la imagen satelital) 
 
 ##Cargar metadata
 metadata_r <- read.csv("C:/Users/LENOVO/Desktop/R-spatial/R_teledeteccion/LC08_L2SP_004070_20251119_20251202_02_T1_MTL.txt", sep = "=")
